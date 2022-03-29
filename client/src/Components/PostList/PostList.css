@@ -1,0 +1,17 @@
+.cards{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../../Assets/gm1.jpg);
+    -webkit-background-size:cover ;
+    background-size: cover;
+    background-position: center center;
+    background-position: center center;
+    font-family: poppins;
+}

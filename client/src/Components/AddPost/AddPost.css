@@ -1,0 +1,45 @@
+
+
+.all{
+  margin: 0;
+  padding: 0;
+  height: 700px;
+  background-image: url(../../Assets/bg.jpg);
+-webkit-backdrop-size :cover;
+background-size: cover;
+font-family: Poppins;
+
+}
+.all >.container{
+  width: 400px;
+  height: 630px;
+  color: white;
+  top: 60%;
+  left: 50%;
+  padding: 30px 30px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  box-shadow: 8px 8px 50px #000;
+}
+
+.container >.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.container >.form input{
+  border:none;
+  border-bottom: 1px solid#ddd;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  font-size: 16px;
+  opacity: 1;
+}
+#demo-row-radio-buttons-group-label{
+
+  font-size: 20px;
+  color: white;
+
+}
